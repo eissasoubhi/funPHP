@@ -33,4 +33,4 @@ echo $person.age; // 25
 // or
 echo $person.$age; // 25
 ```
-Just try it ;)
+Cool isn't. Just try it ;)
