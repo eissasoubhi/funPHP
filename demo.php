@@ -17,7 +17,12 @@ class Person extends PhpDot
 
 $person = new Person;
 
-
 echo $person.name; // eissa
+//or
+echo $person.$name; // eissa
+
 echo "<br>";
+
 echo $person.age; // 25
+// or
+echo $person.$age; // 25
