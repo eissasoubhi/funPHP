@@ -4,7 +4,7 @@ php "dot" notation to get object attributes
 Nothing :) just trying to make somthing cool and nice with php 
 # What's the idea ?
 to use dot "." instead of "->" when working whith objects 
-# Example
+# Example :
 ```php
 
 include_once 'phpdot.php';
