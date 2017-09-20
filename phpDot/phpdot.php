@@ -8,8 +8,8 @@ class PhpDot
 
         foreach ($attributes as $key => $value)
         {
-            $GLOBALS[$key] = $value;
-            define($key, $value);
+            $GLOBALS[$key] = $value; // make the attribute available in the global context so it can be called with $[attribute name]
+            define($key, $value); // define the attribute as CONSTANT to be called directy with its name
         }
 
     }
